@@ -3,7 +3,7 @@ name: SortuniqScript
 on: [push]
 
 jobs:
-  print-welcome-msg:
+  RunShFile:
     runs-on: ubuntu-latest
 
     steps:
