@@ -1,0 +1,8 @@
+apple
+banana
+watermalon
+orange
+banana
+watermalon
+apple
+orange

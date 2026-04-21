@@ -1,0 +1,17 @@
+name: SortuniqScript
+
+on: [push]
+
+jobs:
+  print-welcome-msg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: List
+      run: ls -alh
+
+    - name: RunShFile
+      run: ./sort.sh fruits.txt
