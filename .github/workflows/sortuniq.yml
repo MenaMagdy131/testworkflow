@@ -13,5 +13,8 @@ jobs:
     - name: List
       run: ls -alh
 
+    - name: ChangeFileMode
+      run: chmod +x sort.sh
+
     - name: RunShFile
       run: ./sort.sh fruits.txt
